@@ -7,11 +7,6 @@ public class StudyAdvisor {
                 numberOfMarks6OrHigher++;
             }
         }
-        if (numberOfMarks6OrHigher >= 4){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return numberOfMarks6OrHigher >= 4;
     }
 }
